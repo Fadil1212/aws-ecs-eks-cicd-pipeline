@@ -6,7 +6,7 @@
 
 **A working, tested container delivery pipeline — from Git commit to identical, healthy application releases on ECS and EKS.**
 
-[![Application CI](https://github.com/Fadil1212/student-starter/actions/workflows/ci.yml/badge.svg)](https://github.com/Fadil1212/student-starter/actions/workflows/ci.yml)
+[![Application CI](https://github.com/Fadil1212/aws-ecs-eks-cicd-pipeline/actions/workflows/ci.yml/badge.svg)](https://github.com/Fadil1212/aws-ecs-eks-cicd-pipeline/actions/workflows/ci.yml)
 ![Python](https://img.shields.io/badge/Python-3.12-3776AB?logo=python&logoColor=white)
 ![AWS](https://img.shields.io/badge/AWS-ECS%20%7C%20EKS%20%7C%20ECR-232F3E?logo=amazonwebservices&logoColor=white)
 ![Jenkins](https://img.shields.io/badge/Jenkins-CI%2FCD-D24939?logo=jenkins&logoColor=white)
@@ -128,8 +128,8 @@ A lightweight, dependency-free Python HTTP server serves an HTML dashboard and e
 Requires **Python 3**; no third-party packages for the app or unit tests.
 
 ```bash
-git clone https://github.com/Fadil1212/student-starter.git
-cd student-starter
+git clone https://github.com/Fadil1212/aws-ecs-eks-cicd-pipeline.git
+cd aws-ecs-eks-cicd-pipeline
 python3 -m unittest discover -s tests -v
 python3 app/server.py
 ```
